@@ -1,0 +1,75 @@
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-content {
+    background:#F5F4FF;
+    color: #1f2937;
+    width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  }
+  
+  .card-text {
+    flex: 1;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .card-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .slider-section {
+    margin: 20px 0;
+    
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  .App {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  
